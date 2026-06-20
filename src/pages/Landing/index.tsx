@@ -1,10 +1,25 @@
+import Hero from "@/components/landing/Hero";
+import Features from "@/components/landing/Features";
+import HowItWorks from "@/components/landing/HowItWorks";
+import Testimonials from "@/components/landing/Testimonials";
+import LandingNavbar from "@/components/landing/LandingNavbar";
+import LandingFooter from "@/components/landing/LandingFooter";
+
 function Landing() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        SkillForge AI Landing Page
-      </h1>
-    </div>
+    <>
+      <LandingNavbar />
+
+      <Hero />
+
+      <Features />
+
+      <HowItWorks />
+
+      <Testimonials />
+
+      <LandingFooter />
+    </>
   );
 }
 
